@@ -8,13 +8,13 @@ body {
 
 #banner{
     position: relative;
+    padding: 20px;
+    box-sizing: border-box;
 }
 
 #banner_image{
     height: 200px;
     width: 100%;
-    padding: 20px;
-    box-sizing: border-box;
     object-fit: cover;
 
 }
@@ -28,7 +28,7 @@ body {
 }
 
 #foto_overlap{
-    transform: translate(0%, -50%);
+    transform: translate(0%, -35%);
 }
 
 #foto{
@@ -39,16 +39,15 @@ body {
     border: solid white 5px;
 }
 
-
 #listaMangas{
-    display: inline-block;
-    text-align:left;
+    text-align: left;
+    margin: 20px 10px;
 }
 
 #item_lista {
-    width: 450px;
+    width: 66.67%;
     padding: 25px 15px 10px;
-    margin: 20px 10px;
+    margin: 20px auto;
     border: solid gray 1px;
     border-radius: 20px;
 }
@@ -67,8 +66,8 @@ body {
 }
 
 #item_imagem {
-    height: 250px;
+    height: 500px;
     width: 100%;
     border-radius: 20px;
-    object-fit: fill;
+    object-fit: fit;
 }
