@@ -32,7 +32,7 @@ body {
 }
 
 #foto{
-    width: 100px;
+    width: 90px;
     height: 100px;
     border-radius: 50%;
     object-fit: cover;
@@ -45,7 +45,7 @@ body {
 }
 
 #item_lista {
-    width: 66.67%;
+    width: calc(66.67% - 20px);
     padding: 25px 15px 10px;
     margin: 20px auto;
     border: solid gray 1px;
